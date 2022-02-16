@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: dmt_change_your_career
+      POSTGRES_USER: dmt_change_your_career
+      POSTGRES_PASSWORD: 12345678
+    ports:
+      - 5432:5432
