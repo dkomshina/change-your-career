@@ -9,6 +9,11 @@
     <include file="form/form_section.sql" relativeToChangelogFile="true"/>
     <include file="form/form_element.sql" relativeToChangelogFile="true"/>
 
-    <include file="user/user.sql" relativeToChangelogFile="true"/>
+    <include file="changeller/changeller.sql" relativeToChangelogFile="true"/>
+
+    <include file="suggest/article.sql" relativeToChangelogFile="true"/>
+    <include file="suggest/course.sql" relativeToChangelogFile="true"/>
+    <include file="suggest/event.sql" relativeToChangelogFile="true"/>
+    <include file="suggest/vacancy.sql" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>

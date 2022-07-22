@@ -11,3 +11,7 @@ CREATE TABLE IF NOT EXISTS form_section
     outdated     BOOLEAN     NOT NULL,
     created_at   TIMESTAMPTZ NOT NULL
 );
+
+--changeset dkomshina:add_ml_name_column
+ALTER TABLE form_section
+    ADD COLUMN IF NOT EXISTS ml_name TEXT NOT NULL default 'default';
